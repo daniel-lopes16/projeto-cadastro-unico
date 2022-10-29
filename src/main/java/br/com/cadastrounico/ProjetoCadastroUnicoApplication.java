@@ -37,6 +37,11 @@ public class ProjetoCadastroUnicoApplication implements CommandLineRunner {
 				"EduardaLeão@gmail.com", "05184935100", "689258", "321654","I");
 		Usuario u3 = new Usuario(null, "Bruan", sdf.parse("25/10/2022"),
 				"bruna@gmail.com", "02284935100", "352028", "852369","A");
+		Usuario u5 = new Usuario(null, "Ana melia", sdf.parse("25/10/2022"),
+				"ana@gmail.com", "05184935100", "689258", "321654","I");
+		Usuario u6 = new Usuario(null, "Isabele Barros", sdf.parse("25/10/2022"),
+				"isa@gmail.com", "02284935100", "352028", "852369","A");
+		
 
 		usuarioRepository.saveAll(Arrays.asList(u1,u2,u3));
 
